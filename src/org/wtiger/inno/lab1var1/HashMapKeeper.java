@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * Хранит хэшмапы (внезапно) со словами.
+ * Класс хранит хэшмапы (внезапно) со словами и данным о том,
+ * сколько раз эти слова встретились в обработанных текстах.
  */
 class HashMapKeeper {
     private HashMap<String, Integer> foundWords = new HashMap<>(128);
@@ -19,7 +20,13 @@ class HashMapKeeper {
         keepers.add(new HashMapKeeper()); // 8й
     }
 
-    public static void putWordSomeWhere(String word) {
+    /**
+     * Помещает переданное слово в одно из хранилищ, пересчитывает,
+     * сколько раз слово встретилось, и передает информацию классу Printer.
+     *
+     * @param word Слово, которое необходимо занести в хранилище
+     */
+    static void putWordSomeWhere(String word) {
         int wordSize = word.length();
         HashMapKeeper keeper = keepers.get((wordSize > keepers.size()) ? keepers.size() - 1 : wordSize - 1);
         Printer.addStr(keeper.putWord(word));
