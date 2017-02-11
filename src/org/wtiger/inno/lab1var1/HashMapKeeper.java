@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * Created by olymp on 08.02.2017.
+ * Хранит хэшмапы (внезапно) со словами.
  */
 class HashMapKeeper {
     private HashMap<String, Integer> foundWords = new HashMap<>(128);
