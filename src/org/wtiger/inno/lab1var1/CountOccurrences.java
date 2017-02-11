@@ -46,6 +46,4 @@ public class CountOccurrences {
         }
         Printer.setDone();
     }
-
-
 }

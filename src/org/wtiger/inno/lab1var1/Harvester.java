@@ -30,13 +30,14 @@ class Harvester implements Runnable {
             if (isAnURL(fileOrLink)) {
                 readFromURL(fileOrLink);
             } else if (isAFilePath(fileOrLink)) {
-
                 readFromFile(fileOrLink);
             } else {
                 Harvester.stop();
                 Printer.stop("Формат файла не удалось определить: " + fileOrLink);
             }
         } catch (IOException e) {
+            Harvester.stop();
+            Printer.stop("Ошибка чтения файла: " + fileOrLink);
             e.printStackTrace();
         }
     }
