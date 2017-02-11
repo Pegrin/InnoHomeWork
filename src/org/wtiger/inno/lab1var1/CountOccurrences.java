@@ -33,6 +33,7 @@ public class CountOccurrences {
                 args) {
             if (Harvester.isStopped()) return;
             Thread thread = new Thread(new Harvester(s));
+            thread.setName(s);
             threadArrayList.add(thread);
             thread.start();
         }
