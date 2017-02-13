@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * Сборщик слов из ресурсов
  */
 class Harvester implements Runnable {
-    private static final String FILE_VALIDATING_REGULAR  = "^((((\\/)|(.\\/))|([a-zA-Z]:\\\\)).{1,})|(.+\\.txt)$";
+    private static final String FILE_VALIDATING_REGULAR = "^((((\\/)|(.\\/))|([a-zA-Z]:\\\\)).{1,})|(.+\\.txt)$";
     private static final String URL_VALIDATING_REGULAR = "^((http:\\/\\/)|(https:\\/\\/)).{4,}$";
     private static final Pattern P_FILE = Pattern.compile(FILE_VALIDATING_REGULAR);
     private static final Pattern P_URL = Pattern.compile(URL_VALIDATING_REGULAR);

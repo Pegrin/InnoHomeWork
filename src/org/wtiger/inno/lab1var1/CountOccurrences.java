@@ -25,7 +25,7 @@ public class CountOccurrences {
         if (args.length == 0) {
             System.out.println("Нет параметров на входе, запускаю тестовый набор.");
             args = new String[]{"test1.txt", "test2.txt", "test3.txt", "test4.txt",
-                              "https://vk.com/doc678329_442025940", "https://vk.com/doc678329_442025940"};
+                    "https://vk.com/doc678329_442025940", "https://vk.com/doc678329_442025940"};
         }
         threadPrinter = new Thread(Printer.getInstance());
         threadPrinter.start();

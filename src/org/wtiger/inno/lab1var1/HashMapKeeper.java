@@ -10,6 +10,7 @@ import java.util.HashMap;
 class HashMapKeeper {
     private HashMap<String, Integer> foundWords = new HashMap<>(128);
     private static ArrayList<HashMapKeeper> keepers;
+
     static {
         keepers = new ArrayList<>(8);
         HashMapKeeper keeper = new HashMapKeeper();
