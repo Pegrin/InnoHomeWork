@@ -1,17 +1,27 @@
 package org.wtiger.inno.lab1var1;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
+
 import java.util.ArrayDeque;
 import java.util.Queue;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Этот трудяга выводит на печать все, что ему скормят.
  */
 
 class Printer implements Runnable {
+    static ReentrantLock printerLock = new ReentrantLock();
+    private static final Logger logger = Logger.getLogger(Printer.class);
+    static {
+        DOMConfigurator.configure("src/resources/log_conf.xml");
+    }
+
     private static volatile boolean stopped = false;
     private static volatile boolean done = false;
     private static volatile String stopMessage = "";
-    private static Queue<String> queue = new ArrayDeque<>();
+    private static volatile Queue<String> queue = new ArrayDeque<>();
     private static final Printer PRINTER = new Printer();
 
     private Printer() {
@@ -26,9 +36,9 @@ class Printer implements Runnable {
      */
     @Override
     public void run() {
-        System.out.println("Начало печати.");
+        logger.info("Начало печати.");
         while (true) {
-            if (queue.size() > 0) {
+            if (Printer.queue.size() > 0) {
                 if (isStopped()) {
                     System.out.println(stopMessage);
                     break;
@@ -36,9 +46,14 @@ class Printer implements Runnable {
                 printStr();
             } else {
                 if (isDone()) break;
+                try {
+                    Thread.sleep(5);
+                } catch (InterruptedException e) {
+                    logger.error("Сон системы печати был прерван...", e);
+                }
             }
         }
-        System.out.println("Завершение печати.");
+        logger.info("Завершение печати.");
     }
 
     /**
@@ -46,15 +61,17 @@ class Printer implements Runnable {
      *
      * @param str Строка в очередь на печать
      */
-    static synchronized void addStr(String str) {
-        queue.add(str);
+    static void addStr(String str) {
+        printerLock.lock();
+        Printer.queue.add(str);
+        printerLock.unlock();
     }
 
     /**
      * Печатает одну строку из очереди на печать
      */
     private static void printStr() {
-        String s = queue.poll();
+        String s = Printer.queue.poll();
         if (s != null) System.out.println(s);
     }
 

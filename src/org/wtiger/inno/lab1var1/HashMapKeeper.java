@@ -2,12 +2,14 @@ package org.wtiger.inno.lab1var1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Класс хранит хэшмапы (внезапно) со словами и данным о том,
  * сколько раз эти слова встретились в обработанных текстах.
  */
 class HashMapKeeper {
+    static ReentrantLock hashMapKeeperLock = new ReentrantLock();
     private HashMap<String, Integer> foundWords = new HashMap<>(128);
     private static ArrayList<HashMapKeeper> keepers;
 
@@ -33,10 +35,12 @@ class HashMapKeeper {
         Printer.addStr(keeper.putWord(word));
     }
 
-    private synchronized String putWord(String word) {
-        Integer curCounter = foundWords.get(word);
-        curCounter = (curCounter == null) ? 1 : ++curCounter;
-        foundWords.put(word, curCounter);
-        return word + " - " + curCounter;
+    private String putWord(String word) {
+            hashMapKeeperLock.lock();
+            Integer curCounter = foundWords.get(word);
+            curCounter = (curCounter == null) ? 1 : ++curCounter;
+            foundWords.put(word, curCounter);
+            hashMapKeeperLock.unlock();
+            return word + " - " + curCounter;
     }
 }

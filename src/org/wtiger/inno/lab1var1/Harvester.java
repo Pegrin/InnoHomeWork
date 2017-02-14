@@ -1,5 +1,8 @@
 package org.wtiger.inno.lab1var1;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
+
 import java.io.*;
 import java.net.URL;
 import java.util.regex.Matcher;
@@ -8,7 +11,13 @@ import java.util.regex.Pattern;
 /**
  * Сборщик слов из ресурсов
  */
-class Harvester implements Runnable {
+public class Harvester implements Runnable {
+
+    private static final Logger logger = Logger.getLogger(Harvester.class);
+    static {
+        DOMConfigurator.configure("src/resources/log_conf.xml");
+    }
+
     private static final String FILE_VALIDATING_REGULAR = "^((((\\/)|(.\\/))|([a-zA-Z]:\\\\)).{1,})|(.+\\.txt)$";
     private static final String URL_VALIDATING_REGULAR = "^((http:\\/\\/)|(https:\\/\\/)).{4,}$";
     private static final Pattern P_FILE = Pattern.compile(FILE_VALIDATING_REGULAR);
@@ -16,7 +25,7 @@ class Harvester implements Runnable {
     private static volatile boolean stopped = false;
     private String fileOrLink;
 
-    Harvester(String fileOrLink) {
+    public Harvester(String fileOrLink) {
         this.fileOrLink = fileOrLink;
     }
 
@@ -32,14 +41,23 @@ class Harvester implements Runnable {
             } else if (isAFilePath(fileOrLink)) {
                 readFromFile(fileOrLink);
             } else {
-                Harvester.stop();
-                Printer.stop("Формат файла не удалось определить: " + fileOrLink);
+                Harvester.printBadFile(fileOrLink);
             }
         } catch (IOException e) {
-            Harvester.stop();
-            Printer.stop("Ошибка чтения файла: " + fileOrLink);
-            e.printStackTrace();
+            Harvester.printBadFile(fileOrLink, e);
         }
+    }
+
+    private static void printBadFile(String fileOrLink){
+        Harvester.stop();
+        Printer.stop("Не удалось определить формат файла: " + fileOrLink);
+        logger.error("Не удалось определить формат файла: " + fileOrLink);
+    }
+
+    private static void printBadFile(String fileOrLink, IOException e){
+        Harvester.stop();
+        Printer.stop("Ошибка чтения файла: " + fileOrLink);
+        logger.error("Ошибка чтения файла: " + fileOrLink, e);
     }
 
     /**
@@ -48,7 +66,7 @@ class Harvester implements Runnable {
      * @param string Путь к файлу
      * @return Возвращает true, если строка является URL'ом
      */
-    public boolean isAnURL(String string) {
+    public static boolean isAnURL(String string) {
         Matcher m = P_URL.matcher(string);
         return m.matches();
     }
@@ -59,7 +77,7 @@ class Harvester implements Runnable {
      * @param string Путь к файлу
      * @return Возвращает true, если строка является путем к локальному файлу
      */
-    public boolean isAFilePath(String string) {
+    public static boolean isAFilePath(String string) {
         Matcher m = P_FILE.matcher(string);
         return m.matches();
     }
@@ -77,6 +95,14 @@ class Harvester implements Runnable {
         stopped = true;
     }
 
+    private static void printBadWord(String word, String path){
+        Harvester.stop();
+        logger.error("Найдено недопустимое слово: "+word+", в ресурсе: "+path);
+        Printer.stop("---- Внимание!!! ----" + "\n"
+                + "Недопустимое слово: " + word + "\n"
+                + "Ресурс: " + path);
+    }
+
     private void readFromFile(String path) throws IOException {
         if (Harvester.isStopped()) return;
         try (FileReader fr = new FileReader(new File(path))) {
@@ -89,10 +115,7 @@ class Harvester implements Runnable {
                     if (Parser.validate(word)) {
                         HashMapKeeper.putWordSomeWhere(word);
                     } else {
-                        Harvester.stop();
-                        Printer.stop("---- Внимание!!! ----" + "\n"
-                                + "Недопустимое слово: " + word + "\n"
-                                + "Ресурс: " + path);
+                        Harvester.printBadWord(word, path);
                     }
                 }
             }
@@ -100,10 +123,7 @@ class Harvester implements Runnable {
                 if (Parser.validate(word)) {
                     HashMapKeeper.putWordSomeWhere(word);
                 } else {
-                    Harvester.stop();
-                    Printer.stop("---- Внимание!!! ----" + "\n"
-                            + "Недопустимое слово: " + word + "\n"
-                            + "Ресурс: " + path);
+                    Harvester.printBadWord(word, path);
                 }
             }
 
@@ -123,10 +143,7 @@ class Harvester implements Runnable {
                     if (Parser.validate(word)) {
                         HashMapKeeper.putWordSomeWhere(word);
                     } else {
-                        Harvester.stop();
-                        Printer.stop("---- Внимание!!! ----" + "\n"
-                                + "Недопустимое слово: " + word + "\n"
-                                + "Ресурс: " + path);
+                        Harvester.printBadWord(word, path);
                     }
                 }
             }
@@ -134,13 +151,9 @@ class Harvester implements Runnable {
                 if (Parser.validate(word)) {
                     HashMapKeeper.putWordSomeWhere(word);
                 } else {
-                    Harvester.stop();
-                    Printer.stop("---- Внимание!!! ----" + "\n"
-                            + "Недопустимое слово: " + word + "\n"
-                            + "Ресурс: " + path);
+                    Harvester.printBadWord(word, path);
                 }
             }
-
         }
     }
 }

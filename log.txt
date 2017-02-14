@@ -1,0 +1,266 @@
+
+INFO    2017-02-14 22:15:55,605 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:15:55,608 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:15:55,703 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:15:55,708 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:15:55,708 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:17:08,283 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:17:08,293 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:17:15,811 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:17:37,758 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:17:37,788 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:18:03,110 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:18:03,112 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:18:06,379 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:18:06,432 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:18:06,433 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:20:03,578 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:20:03,581 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:20:03,654 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:20:06,282 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:20:20,948 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:20:29,829 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:20:29,832 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:20:29,864 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:20:29,896 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:20:29,897 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:20:33,876 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:20:33,879 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:20:36,726 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:21:56,457 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:21:56,459 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:22:00,522 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:22:00,524 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:22:00,560 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:22:00,597 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:22:00,599 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:22:25,125 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:22:25,128 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:22:25,219 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:22:25,221 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:22:25,221 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:22:36,567 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:22:36,571 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:22:38,560 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:23:24,141 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:23:24,145 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:23:27,010 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:23:43,677 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:23:43,677 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:23:45,811 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:23:45,814 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:23:45,876 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:23:45,902 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:23:45,903 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:23:50,736 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:23:50,740 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:23:50,773 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:23:50,873 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:23:50,874 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:23:55,061 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:23:55,069 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:23:55,097 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:23:55,139 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:23:55,140 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:24:19,571 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:24:19,577 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:24:19,605 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:24:19,714 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:24:19,716 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:24:40,301 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:24:40,304 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:24:40,324 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:24:40,354 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:24:40,354 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:24:45,975 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:24:45,979 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:24:46,062 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:24:46,075 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:24:46,075 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:24:55,544 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:24:55,547 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:24:55,574 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:24:55,643 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:24:55,649 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:26:27,853 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:26:27,855 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:26:27,885 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:26:27,915 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:26:27,915 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:26:31,601 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:26:31,604 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:26:31,676 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:26:46,791 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:26:46,793 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:31:25,169 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:31:25,171 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:31:25,193 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:31:25,197 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:31:25,197 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:38:52,456 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:38:52,458 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:38:52,478 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+INFO    2017-02-14 22:38:54,483 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:38:54,546 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:39:05,480 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:39:05,482 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:39:05,509 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:39:05,576 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:39:05,618 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:39:05,622 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:43:03,586 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:43:03,588 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:43:03,611 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:43:03,700 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:43:03,701 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:43:03,764 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:43:18,448 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:43:18,450 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:43:18,471 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:43:18,544 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:43:18,547 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:43:20,012 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:43:25,993 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:43:25,995 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:43:26,019 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:43:26,091 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:43:26,092 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:43:26,100 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:43:39,797 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:43:39,799 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:43:39,819 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:43:39,891 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:43:39,893 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:43:41,374 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:43:54,860 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:43:54,863 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:43:54,883 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:43:54,969 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:43:54,971 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:43:54,971 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:02,262 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:02,265 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:02,286 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:02,344 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:02,345 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:44:02,346 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:06,185 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:06,188 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:06,218 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:06,302 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:06,306 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:07,780 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:44:09,517 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:09,520 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:09,548 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:09,635 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:09,638 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:11,139 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:44:12,251 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:12,254 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:12,362 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:12,412 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:12,414 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:44:12,415 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:15,411 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:15,413 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:15,436 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:15,488 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:15,490 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:44:15,503 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:28,553 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:28,556 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:28,614 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:28,698 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:28,714 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:28,718 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:44:30,991 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:30,993 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:31,013 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:31,067 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:31,070 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:44:31,074 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:33,396 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:33,398 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:33,418 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:33,476 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:33,478 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:44:33,479 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:35,798 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:44:35,801 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:44:35,822 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:44:35,920 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:44:35,921 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:44:37,421 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:45:58,936 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:45:58,939 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:45:58,970 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:45:59,087 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:45:59,115 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:00,550 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:46:10,275 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:46:10,277 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:46:10,298 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:46:10,376 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:46:10,441 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:11,909 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:46:13,059 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:46:13,062 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:46:13,087 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:46:13,238 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:46:13,240 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:46:13,301 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:15,561 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:46:15,563 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:46:15,583 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:46:15,680 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:46:15,681 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:46:15,746 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:18,738 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:46:18,739 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:46:18,761 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:46:18,812 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:46:18,814 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:46:18,866 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:27,201 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:46:27,203 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:46:27,224 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:46:27,286 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:46:27,287 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:46:27,288 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:29,590 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:46:29,592 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:46:29,612 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:46:29,681 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:46:29,683 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:46:29,684 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:32,285 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:46:32,287 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:46:32,306 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:46:32,383 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:46:32,384 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 22:46:32,384 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:34,580 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 22:46:34,582 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 22:46:34,602 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 22:46:34,686 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 22:46:34,686 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 22:46:34,688 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 23:14:44,378 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 23:14:44,395 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 23:14:44,476 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 23:14:44,599 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 23:14:44,603 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 23:14:44,613 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 23:16:18,975 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 23:16:18,977 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 23:16:18,997 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 23:16:19,092 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 23:16:19,095 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
+INFO    2017-02-14 23:16:19,116 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 23:17:35,369 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Запуск задачи. Переданно входных строк: 0
+INFO    2017-02-14 23:17:35,371 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Нет параметров на входе, запуск тестового набора.
+INFO    2017-02-14 23:17:35,393 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Начало печати.
+ERROR   2017-02-14 23:17:35,469 [pool-1-thread-3] org.wtiger.inno.lab1var1.Harvester  - Найдено недопустимое слово: лoдка, в ресурсе: test3.txt
+INFO    2017-02-14 23:17:35,471 [main] org.wtiger.inno.lab1var1.CountOccurrences  - Все потоки завершены. Завершение выполнения программы.
+INFO    2017-02-14 23:17:35,471 [Thread-0] org.wtiger.inno.lab1var1.Printer  - Завершение печати.
